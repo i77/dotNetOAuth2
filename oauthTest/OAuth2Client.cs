@@ -219,8 +219,7 @@ namespace oauthTest
         public string Token { private set; get; }
         [DataMember(Name = "token_type")]
         public string TokenType { private set; get; }
-        //TODO: change in expires_in
-        [DataMember(Name = "expire_in")]
+        [DataMember(Name = "expires_in")]
         public int ExpiresIn { private set; get; }
         [DataMember(Name = "refresh_token")]
         public string RefreshToken { private set; get; }
